@@ -366,7 +366,7 @@ html{
  #callout .container{
      position:relative;
      overflow:hidden;
-     background-image: url(../img/kids.png);
+     /* background-image: url(../img/kids.png); */
      background-position:bottom right;
      background-repeat:no-repeat;
 }
@@ -1271,7 +1271,7 @@ html{
 }
 /*=========================== Call to Action ============================ */
  #call-to-action{
-     background-image: url(../img/calltoactionbg.jpg);
+     background-image: url(../img/sonipublicschool_3.jpg);
      background-size:cover;
      background-position:center center;
      background-attachment: fixed;
@@ -2609,7 +2609,7 @@ html{
     }
     /* Slider */
      #layerslider{
-        height:600px!important;
+        height:700px!important;
     }
     /* video text */
 	.boxed .video-text,
@@ -2623,7 +2623,7 @@ html{
  @media (max-width: 991px) {
     /* Slider */
      #layerslider{
-        height:480px!important;
+        height:580px!important;
     }
      .header-text h1 {
          font-size: 44px;
@@ -2790,7 +2790,7 @@ html{
  @media (max-width: 767px) {
     /* Slider */
      #layerslider{
-        height:300px!important;
+        height:400px!important;
     }
      .header-text {
          padding: 20px 0 20px!important;
@@ -2818,7 +2818,7 @@ html{
  @media (max-width: 480px) {
     /* slider */
      #layerslider{
-        height:190px!important;
+        height:390px!important;
     }
      .header-text h1 {
          font-size: 26px;
@@ -2965,7 +2965,7 @@ html{
     /* Slider */
      #layerslider {
          padding-top: 45px;
-         height:120px!important;
+         height:250px!important;
     }
      .header-text {
          top: 30% !important;
