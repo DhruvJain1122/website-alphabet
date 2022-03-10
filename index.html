@@ -31,9 +31,22 @@
       <!-- LayerSlider stylesheet -->
       <link rel="stylesheet" href="layerslider/css/layerslider.css">
       <!-- Favicons-->
-      <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <style>
+         .google-maps {
+           position: relative;
+           padding-bottom: 75%; // This is the aspect ratio
+           height: 0;
+           overflow: hidden;
+         }
+         .google-maps iframe {
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: 100% !important;
+           height: 100% !important;
+         }
+       </style>
    </head>
    <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
    <!-- Page width 'Boxed' of 'Full' -->
@@ -519,7 +532,18 @@
                   <!-- address info -->
                   <p>We are located at D-1119, Dabua Colony, N.I.T Faridabad</p>
                 <!-- Map -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14041.008360207115!2d77.2797713!3d28.381453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfc70b06f010164dd!2sSoni%20Public%20School%20Dabua%20Colony!5e0!3m2!1sen!2sin!4v1646849279810!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>            </div>
+             
+<div class="google-maps">
+   <iframe
+     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14041.008360207115!2d77.2797713!3d28.381453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0xfc70b06f010164dd!2sSoni%20Public%20School%20Dabua%20Colony!5e0!3m2!1sen!2sin!4v1646849279810!5m2!1sen!2sin"
+     width="600"
+     height="450"
+     style="border:0;"
+     allowfullscreen=""
+     loading="lazy"
+   ></iframe>
+ </div>
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14041.008360207115!2d77.2797713!3d28.381453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfc70b06f010164dd!2sSoni%20Public%20School%20Dabua%20Colony!5e0!3m2!1sen!2sin!4v1646849279810!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>            </div> -->
             <!-- Contact Form -->
            
             <!--/Contact form -->
