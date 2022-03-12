@@ -2595,6 +2595,7 @@ html{
 		padding: 30px;
    }
 }
+
 /************ max width 1200px *************/
  @media (max-width: 1200px) {
      .navbar-nav > li > a {
@@ -2609,7 +2610,7 @@ html{
     }
     /* Slider */
      #layerslider{
-        height:700px!important;
+        height:600px!important;
     }
     /* video text */
 	.boxed .video-text,
@@ -2623,7 +2624,7 @@ html{
  @media (max-width: 991px) {
     /* Slider */
      #layerslider{
-        height:580px!important;
+        height:480px!important;
     }
      .header-text h1 {
          font-size: 44px;
@@ -2790,7 +2791,7 @@ html{
  @media (max-width: 767px) {
     /* Slider */
      #layerslider{
-        height:400px!important;
+        height:300px!important;
     }
      .header-text {
          padding: 20px 0 20px!important;

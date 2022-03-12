@@ -46,7 +46,26 @@
            width: 100% !important;
            height: 100% !important;
          }
+         .floating{
+            position:fixed;
+            width:60px;
+            height:60px;
+            bottom:40px;
+            right:40px;
+            background-color:blue;
+            color:#FFF;
+            border-radius:50px;
+            text-align:center;
+               font-size:30px;
+            box-shadow: 2px 2px 3px #999;
+         z-index:100;
+         }
+
+         .float-button{
+            margin-top:16px;
+         }
        </style>
+         
    </head>
    <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
    <!-- Page width 'Boxed' of 'Full' -->
@@ -60,7 +79,9 @@
             <span></span>
             <span></span>
          </div>
-      </div>	   
+      </div>	
+      <a href="tel:9213722203" class="floating" target="_blank"><i class="fa fa-phone float-button"></i>
+      </a>
       <!-- Navbar -->
       <nav class="navbar navbar-custom navbar-fixed-top">
          <!-- Brand and toggle get grouped for better mobile display -->
@@ -118,7 +139,7 @@
          <!-- Slide 1 -->
          <div class="ls-slide" data-ls="transition2d:104;timeshift:-2000;">
             <!-- Background image -->
-            <img src="img/sonipublicschool_1.jpg" class="ls-bg"  alt="Slide background"/>
+            <img src="img/sonipublicschool_1.jpg" class="ls-bg" alt="Slide background"/>
             <!-- Parallax Image -->
             <!-- <img src="img/sun.png" class="ls-l img-responsive hidden-xs hidden-sm parallax1" alt="" data-ls="delayin:1000;easingin:fadeIn;parallaxlevel:7;"> -->
             <!-- Text -->
@@ -652,5 +673,6 @@
 	   <script src="layerslider/js/layerslider.load.js" ></script>
       <script src="layerslider/js/layerslider.transitions.js" ></script>
       <script src="layerslider/js/layerslider.kreaturamedia.jquery.js" ></script>
+  
    </body>
 </html>
